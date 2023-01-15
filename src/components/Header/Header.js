@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <Navbar bg="light" variant="light">
     <Container>
-      <Navbar.Brand className="justify-content-start">Madisen Vogel</Navbar.Brand>
+      <Navbar.Brand className="justify-content-start">Sean Grant</Navbar.Brand>
       <Nav className="justify-content-end">
         <NavLink to="/" className="nav-link">About Me</NavLink>
         <NavLink to="/Portfolio" className="nav-link">Portfolio</NavLink>

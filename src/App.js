@@ -6,7 +6,7 @@ import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import Resume from './components/Resume/Resume.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
-import { BrowserRouter as Router, Route,} from 'react-router-dom';
+import { BrowserRouter as Routes, Route,} from 'react-router-dom';
 
 function App() {
   return (
