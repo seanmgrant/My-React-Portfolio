@@ -1,0 +1,30 @@
+/* .footer-basic .social {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.footer-basic .social a {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 2rem;
+    color: var(--gold);
+    transition: 0.3s ease-in-out;
+}
+
+.footer-basic .social a:hover {
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+
+.email-wrapper .social {
+    padding: 3rem 0;
+}
+
+.email-wrapper .social a {
+    animation: colorChange2 5s infinite;
+} */
+
+.social {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
