@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer/Footer.js';
 import Header from './components/Header/Header.js';
-import About from './components/About/About.js';
-import Contact from './components/Contact/Contact.js';
-import Resume from './components/Resume/Resume.js';
-import Portfolio from './components/Portfolio/Portfolio.js';
-import { BrowserRouter as Routes, Route,} from 'react-router-dom';
+import About from './pages/about/About.js';
+import Resume from './pages/resume/Resume.js';
+import Contact from './pages/contact/Contact.js';
+import Portfolio from './pages/portfolio/Portfolio.js';
+import { BrowserRouter, Routes, Route,} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
