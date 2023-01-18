@@ -3,7 +3,8 @@ import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { Container, Row, Col  } from 'react-bootstrap';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Container, Row, Card, Image, Modal, Button } from "react-bootstrap";
 
 
 export default function Footer() {
@@ -12,7 +13,7 @@ export default function Footer() {
       <footer className='container text-center'>
       <div className='row'>
           <a
-            className='col-sm-2 fa-3x'
+            className='col-2 fa-2x'
             href="https://github.com/seanmgrant"
             target="_blank"
             rel="noreferrer"
@@ -20,16 +21,24 @@ export default function Footer() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            className='col-sm-2 fa-3x'
+            className='col-2 fa-2x'
             href="https://www.linkedin.com/in/sean-grant-a7858551/"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
+          <a
+            className='col-2 fa-2x '
+            href="https://www.instagram.com/youngodyssey/?hl=en"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
          
         <a
-            className='col-sm-2 fa-3x'
+            className='col-2 fa-2x'
             href="contact"
             target="_blank"
             rel="noreferrer"

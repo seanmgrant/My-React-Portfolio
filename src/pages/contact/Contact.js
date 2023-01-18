@@ -24,7 +24,7 @@ function ContactPage() {
 
   return (
     <div className='container'>
-    <h1>Contact Me</h1>
+    <h1 className='contact'>Contact Me</h1>
     <Form onSubmit={handleSubmit}>
       <Form.Group >
         <Form.Label className='name'>Name</Form.Label>

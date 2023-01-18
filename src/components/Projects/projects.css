@@ -1,0 +1,34 @@
+
+/* 
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    justify-content: space-around;
+}
+
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-img{
+    width: 100%;
+    height: 20rem;
+}
+
+.card-title{
+    padding: 2rem;
+}
+
+.card-btn{
+    padding: 10px;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    color: #fff;
+} */

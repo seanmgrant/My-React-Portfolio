@@ -1,13 +1,21 @@
 import React from "react";
+import "./resume.css";
+
+
 
 export default function Resume() {
   return (
-    <div className="columns download">
+    <div>
       <p>
-        <a href="#" className="button">
-          <i className="fa fa-download"></i>Download Resume
+        <a href="../sgResume.pdf" className="d-btn">
+          Download Resume
         </a>
       </p>
+      <div className="tech-skills">
+        <h1>Technical Skills</h1>
+        <p>JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GraphQL, GitHub, MySQL, Express, React, Node,AJAX, JSON, jQuery, Bootstrap, Sequelize, MongoDB, Pro Tools, Logic Pro, Ableton, Premiere Pro </p>
+        
+      </div>
     </div>
   );
 }
