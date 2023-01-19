@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectData from "../portfolio/data"
 import "./portfolio.css";
 import jate from './assets/jate.png';
 import noteTaker from './assets/notetaker.png';
