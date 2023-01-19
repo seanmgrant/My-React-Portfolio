@@ -7,7 +7,7 @@ export default function About() {
     <section className="container">
       <div className="row d-flex justify-content-center align-items-center">
         <div className="col-sm">
-          <img src={SG} class='rounded-circle img-fluid' className='img-fluid' alt="sean" />
+          <img src={SG} id="img-fluid" alt="sean" />
         </div>
         <div className="about-me">
           <p>
