@@ -17,7 +17,7 @@ export default function Header() {
           loop: true,
         }}
       /> 
-      <Nav className="justify-content-end">
+      <Nav className=" nav-names justify-content-end">
         <NavLink to="/" className="nav-link">About Me</NavLink>
         <NavLink to="/Portfolio" className="nav-link">Portfolio</NavLink>
         <NavLink to="/Contact" className="nav-link">Contact</NavLink>

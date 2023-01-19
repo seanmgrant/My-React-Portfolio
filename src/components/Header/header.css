@@ -3,5 +3,16 @@
 
 .navbar {
 font-family: 'Raleway', sans-serif;
+font-size: 1.5rem;
 
 };
+.navname{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
