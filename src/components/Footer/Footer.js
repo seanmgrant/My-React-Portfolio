@@ -13,7 +13,7 @@ export default function Footer() {
       <footer className='container text-center'>
       <div className='row'>
           <a
-            className='col-2 fa-2x'
+            className='col-2 fa-2x me-3'
             href="https://github.com/seanmgrant"
             target="_blank"
             rel="noreferrer"
@@ -21,7 +21,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            className='col-2 fa-2x'
+            className='col-2 fa-2x me-3'
             href="https://www.linkedin.com/in/sean-grant-a7858551/"
             target="_blank"
             rel="noreferrer"
@@ -29,23 +29,13 @@ export default function Footer() {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
-            className='col-2 fa-2x '
+            className='col-2 fa-2x me-3 '
             href="https://www.instagram.com/youngodyssey/?hl=en"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-         
-        <a
-            className='col-2 fa-2x'
-            href="contact"
-            target="_blank"
-            rel="noreferrer"
-            >
-          <FontAwesomeIcon icon={faEnvelope} />
-          </a>
-     
             </div>
 
       </footer>
