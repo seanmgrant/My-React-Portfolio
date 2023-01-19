@@ -7,7 +7,7 @@ export default function Resume() {
   return (
     <div>
       <p>
-        <a href="../sgResume.pdf" className="d-btn">
+        <a className="d-btn" href="../sgResume.pdf" download> 
           Download Resume
         </a>
       </p>
