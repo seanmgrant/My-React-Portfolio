@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import jate from './assets/jate.png';
+// import jate from './assets/jate.png';
+import turnip from './assets/turnip.png';
 import noteTaker from './assets/notetaker.png';
 import rainBow from './assets/rainbow.png';
 import rushDB from './assets/rush.png';
@@ -14,18 +15,18 @@ const Portfolio = () => {
         <div className="row g-3 justify-content-evenly">
             <div className="col-12 col-md-6 col-lg-4">
                 <div className="card h-100 d-flex flex-column" >
-                    <img src={jate} className="card-img-top" alt="Jate text editor" />
+                    <img src={turnip} className="card-img-top" alt="Jate text editor" />
                     <div className="card-body">
-                        <h5 className="card-title ">Text Editor</h5> 
-                        <p className="card-text">JATE is an online text editor that is optimized for use as a Progressive Web Application (PWA). This means that it can be used offline as well as online, making it a useful tool for developers who want to create and save notes or code snippets for future reference. With JATE, you can confidently access your notes and code snippets even when you don't have an internet connection.</p> 
+                        <h5 className="card-title ">Turnip The Zine</h5> 
+                        <p className="card-text">Discover Denver's hidden gems with Turnip-the-Zine! Our DIY site, built with HTML, CSS, JavaScript, Node.js, Apollo, GraphQL, Bootstrap, React, and deployed on Heroku, is your one-stop-shop for local artists that deserve the spotlight. Each month, we handpick the most promising talents and showcase them with in-depth profiles, so you can get to know their work and backstory. Plus, our hassle-free ticket store makes it easy to support these artists by attending their shows and taking home some awesome merchandise. Turnip-the-Zine is all about fostering a community of music lovers, so be sure to share your thoughts and connect with other fans in our community message board.</p> 
                         <h4 className="card-title mb-3"></h4>
-                        <a href="https://github.com/seanmgrant/Text-Editor-Progressive-Web-App">
+                        <a href="https://github.com/madisenvo/Turnip-the-Zine">
                             <button type="button" className="btn btn-dark me-2">
                             <i class="bi bi-github me-1"></i>
                             Github
                             </button>
                         </a>
-                        <a href="https://arcane-gorge-76544.herokuapp.com">
+                        <a href="https://turnip-the-zine.herokuapp.com/">
                             <button type="button" className="btn btn-dark">
                             <i class="bi bi-cassette-fill me-1"></i>
                             Deployed Site
@@ -146,7 +147,7 @@ const Portfolio = () => {
             </div>
             </div>  
     </div>
-  ); 
+); 
 };
 
 export default Portfolio;
