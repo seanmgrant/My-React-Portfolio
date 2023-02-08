@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="row g-3 justify-content-evenly">
             <div className="col-12 col-md-6 col-lg-4">
                 <div className="card h-100 d-flex flex-column" >
-                    <img src={turnip} className="card-img-top" alt="Jate text editor" />
+                    <img src={turnip} className="card-img-top" alt="Turnip The Zine" />
                     <div className="card-body">
                         <h5 className="card-title ">Turnip The Zine</h5> 
                         <p className="card-text">Discover Denver's hidden gems with Turnip-the-Zine! Our DIY site, built with HTML, CSS, JavaScript, Node.js, Apollo, GraphQL, Bootstrap, React, and deployed on Heroku, is your one-stop-shop for local artists that deserve the spotlight. Each month, we handpick the most promising talents and showcase them with in-depth profiles, so you can get to know their work and backstory. Plus, our hassle-free ticket store makes it easy to support these artists by attending their shows and taking home some awesome merchandise. Turnip-the-Zine is all about fostering a community of music lovers, so be sure to share your thoughts and connect with other fans in our community message board.</p> 
